@@ -309,3 +309,23 @@ img { display: block; max-width: 100%; }
 @media (max-width: 1050px) { .field-spine { left: 8px; transform: translateY(-50%) scale(.86); } }
 @media (max-width: 800px) { .field-spine { display: none; }.sovereign-mark { top: 42px; right: 24px; transform: scale(.75) rotate(16deg); }.section-connector { height: 22px; } }
 @media (max-width: 560px) { .hero-land-memory { right: -5%; top: 14%; width: 90%; height: 41%; opacity: .16; }.sovereign-mark { top: 31px; right: 24px; opacity: .56; }.sovereign-mark b { font-size: 9px; }.section-connector { height: 18px; }.section-connector::before { top: -18px; height: 28px; }.section-connector::after { top: 9px; height: 24px; }.section-connector span { top: 7px; width: 6px; height: 6px; } }
+
+/* Bright realistic tree treatment: the supplied HAEL logo remains untouched; photography carries life while gold marks carry interaction. */
+.live-tree-scene { position: relative; z-index: 2; width: min(100%, 535px); margin: 0 auto; overflow: hidden; border: 1px solid rgba(218, 185, 84, .58); background: #d9c58a; box-shadow: 14px 22px 42px rgba(6, 38, 23, .28); }
+.live-tree-scene > img { width: 100%; height: 615px; object-fit: cover; object-position: center; filter: saturate(.9) contrast(.98) brightness(1.05); }
+.live-tree-wash { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(238, 222, 169, .04), rgba(7, 58, 34, .08) 56%, rgba(8, 42, 26, .64)); pointer-events: none; }
+.tree-illustration > .tree-halo, .tree-illustration > svg { display: none; }
+.tree-hotspot { position: absolute; z-index: 2; display: flex; align-items: center; gap: 8px; padding: 4px; color: #f9edc4; background: transparent; cursor: pointer; }
+.tree-hotspot--1 { top: 71%; left: 14%; }.tree-hotspot--2 { top: 53%; left: 43%; }.tree-hotspot--3 { top: 32%; right: 10%; }.tree-hotspot--4 { top: 13%; left: 47%; }
+.hotspot-pulse { display: block; width: 15px; height: 15px; border: 2px solid #f4d77e; border-radius: 50%; background: rgba(17, 83, 49, .8); box-shadow: 0 0 0 5px rgba(230, 196, 80, .15); transition: transform .2s ease-out, background .2s ease-out, box-shadow .2s ease-out; }
+.tree-hotspot:hover .hotspot-pulse, .tree-hotspot:focus-visible .hotspot-pulse, .tree-hotspot.is-active .hotspot-pulse { background: #e5c65e; box-shadow: 0 0 0 6px rgba(230, 196, 80, .2), 0 0 20px rgba(230, 196, 80, .48); transform: scale(1.13); }
+.hotspot-label { padding: 6px 8px; color: #f8f0d6; background: rgba(10, 58, 34, .79); border: 1px solid rgba(234, 205, 113, .52); font-size: 9px; font-weight: 900; letter-spacing: .12em; text-transform: uppercase; opacity: 0; transform: translateX(-5px); transition: opacity .18s ease-out, transform .18s ease-out; }
+.tree-hotspot:hover .hotspot-label, .tree-hotspot:focus-visible .hotspot-label, .tree-hotspot.is-active .hotspot-label { opacity: 1; transform: translateX(0); }
+.live-tree-caption { position: absolute; z-index: 2; right: 17px; bottom: 16px; left: 17px; display: flex; align-items: center; gap: 9px; color: #f3e8c3; font-size: 9px; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+.live-tree-caption strong { color: #e0c25e; font-family: "DM Serif Display", serif; font-size: 16px; font-weight: 400; letter-spacing: 0; }
+.live-tree-caption span:last-child { margin-left: auto; color: #d6ddc8; font-size: 8px; letter-spacing: .07em; }
+.tree-illustration { min-height: 630px; }
+.tree-illustration .tree-legend { z-index: 3; bottom: 28px; color: #e4e5d6; }
+.tree-illustration .tree-legend .legend-dot--green { background: #8dc18a; }
+@media (max-width: 800px) { .live-tree-scene { max-width: 570px; }.live-tree-scene > img { height: 560px; }.tree-illustration { min-height: 575px; } }
+@media (max-width: 560px) { .live-tree-scene > img { height: 440px; }.tree-illustration { min-height: 458px; }.tree-hotspot--1 { top: 70%; left: 9%; }.tree-hotspot--2 { top: 52%; left: 39%; }.tree-hotspot--3 { top: 30%; right: 4%; }.tree-hotspot--4 { top: 12%; left: 43%; }.hotspot-label { font-size: 8px; }.live-tree-caption { right: 10px; bottom: 11px; left: 10px; gap: 6px; }.live-tree-caption strong { font-size: 13px; }.live-tree-caption span:last-child { display: none; }.tree-illustration .tree-legend { bottom: 4px; left: 11px; } }

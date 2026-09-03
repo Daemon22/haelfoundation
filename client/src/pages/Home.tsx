@@ -20,7 +20,7 @@ import { toast } from "sonner";
 
 const SUPPLIED_EMBLEM = "/manus-storage/hael-supplied-emblem_96fd421f.png";
 const MARK = "/manus-storage/hael-mark_4867cb59.png";
-const HERO_ART = "/manus-storage/hael-hero-archive_9f51f34c.jpg";
+const HERO_ART = "/manus-storage/hael-live-tree-hero_0b4d16d5.jpg";
 const ROOTS_ART = "/manus-storage/hael-roots-field_75b51709.jpg";
 const FLOW_ART = "/manus-storage/hael-circular-flow_bcd04058.jpg";
 
@@ -245,6 +245,24 @@ export default function Home() {
           </div>
           <div className="tree-layout">
             <div className="tree-illustration reveal reveal-delay-1">
+              <div className="live-tree-scene">
+                <img src={HERO_ART} alt="A monumental living tree rooted in sunlit earth" />
+                <div className="live-tree-wash" />
+                {treeLayers.map((layer, index) => (
+                  <button
+                    key={layer.id}
+                    type="button"
+                    className={`tree-hotspot tree-hotspot--${index + 1} ${activeTree === layer.id ? "is-active" : ""}`}
+                    aria-label={`Explore ${layer.label}`}
+                    aria-pressed={activeTree === layer.id}
+                    onClick={() => setActiveTree(layer.id)}
+                    onMouseEnter={() => setActiveTree(layer.id)}
+                  >
+                    <span className="hotspot-pulse" /><span className="hotspot-label">{layer.label}</span>
+                  </button>
+                ))}
+                <div className="live-tree-caption"><span>Fig. 03</span><strong>A living architecture</strong><span>Move through the layers</span></div>
+              </div>
               <div className="tree-halo" />
               <svg viewBox="0 0 520 660" role="img" aria-label="A stylized living tree with roots, trunk, branches, and canopy">
                 <defs>
