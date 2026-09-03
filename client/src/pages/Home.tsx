@@ -8,7 +8,6 @@ import {
   ArrowDown,
   ArrowRight,
   Check,
-  ChevronDown,
   CircleArrowOutUpRight,
   Leaf,
   Menu,
@@ -19,7 +18,6 @@ import {
 import { toast } from "sonner";
 
 const SUPPLIED_EMBLEM = "/manus-storage/hael-supplied-emblem_96fd421f.png";
-const MARK = "/manus-storage/hael-mark_4867cb59.png";
 const HERO_ART = "/manus-storage/hael-live-tree-hero_0b4d16d5.jpg";
 const ROOTS_ART = "/manus-storage/hael-roots-field_75b51709.jpg";
 const FLOW_ART = "/manus-storage/hael-circular-flow_bcd04058.jpg";
@@ -85,7 +83,7 @@ function scrollToId(id: string) {
 function Wordmark({ compact = false }: { compact?: boolean }) {
   return (
     <div className={compact ? "wordmark wordmark--compact" : "wordmark"}>
-      <img src={MARK} alt="" aria-hidden="true" />
+      <img src={SUPPLIED_EMBLEM} alt="" aria-hidden="true" />
       <span>HAEL</span><Diamond />
     </div>
   );
@@ -97,16 +95,12 @@ function Diamond() {
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeTree, setActiveTree] = useState("trunk");
   const [activeFlow, setActiveFlow] = useState("primary");
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [progress, setProgress] = useState(0);
 
-  const activeLayer = useMemo(
-    () => treeLayers.find((layer) => layer.id === activeTree) ?? treeLayers[1],
-    [activeTree],
-  );
+  const activeLayer = treeLayers[1];
   const activeStage = useMemo(
     () => flowStages.find((stage) => stage.id === activeFlow) ?? flowStages[0],
     [activeFlow],
@@ -248,20 +242,8 @@ export default function Home() {
               <div className="live-tree-scene">
                 <img src={HERO_ART} alt="A monumental living tree rooted in sunlit earth" />
                 <div className="live-tree-wash" />
-                {treeLayers.map((layer, index) => (
-                  <button
-                    key={layer.id}
-                    type="button"
-                    className={`tree-hotspot tree-hotspot--${index + 1} ${activeTree === layer.id ? "is-active" : ""}`}
-                    aria-label={`Explore ${layer.label}`}
-                    aria-pressed={activeTree === layer.id}
-                    onClick={() => setActiveTree(layer.id)}
-                    onMouseEnter={() => setActiveTree(layer.id)}
-                  >
-                    <span className="hotspot-pulse" /><span className="hotspot-label">{layer.label}</span>
-                  </button>
-                ))}
-                <div className="live-tree-caption"><span>Fig. 03</span><strong>A living architecture</strong><span>Move through the layers</span></div>
+
+                <div className="live-tree-caption"><span>Fig. 03</span><strong>A living architecture</strong></div>
               </div>
               <div className="tree-halo" />
               <svg viewBox="0 0 520 660" role="img" aria-label="A stylized living tree with roots, trunk, branches, and canopy">
@@ -288,11 +270,11 @@ export default function Home() {
               <div className="tree-legend"><span><i className="legend-dot legend-dot--gold" />Knowledge</span><span><i className="legend-dot legend-dot--green" />Capability</span></div>
             </div>
             <div className="tree-explorer reveal reveal-delay-2">
-              <div className="tree-tabs" role="tablist" aria-label="Living tree layers">
+              <div className="tree-tabs" aria-label="Living tree layers">
                 {treeLayers.map((layer) => (
-                  <button key={layer.id} role="tab" aria-selected={activeTree === layer.id} className={activeTree === layer.id ? "tree-tab is-active" : "tree-tab"} onClick={() => setActiveTree(layer.id)}>
-                    <span>{layer.number}</span>{layer.label}<ChevronDown size={14} />
-                  </button>
+                  <div key={layer.id} className={layer.id === "trunk" ? "tree-tab tree-tab--static is-active" : "tree-tab tree-tab--static"}>
+                    <span>{layer.number}</span>{layer.label}
+                  </div>
                 ))}
               </div>
               <div className="tree-panel" key={activeLayer.id}>
@@ -300,7 +282,6 @@ export default function Home() {
                 <h3>{activeLayer.title}</h3>
                 <p>{activeLayer.description}</p>
                 <div className="tag-list">{activeLayer.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
-                <button className="panel-link" onClick={() => scrollToId("#cycle")}>See how it circulates <MoveRight size={16} /></button>
               </div>
               <div className="tree-signature"><span>HAEL</span><Diamond /><span className="signature-line" /><span>ROOTED IN POSSIBILITY</span></div>
             </div>

@@ -1,8 +1,8 @@
-# HAEL Foundation bright-realistic tree update
+# HAEL Foundation simplification checklist
 
-- [x] Audit the legacy HAEL tree references and remove obsolete Omnimind-era framing; keep the supplied HAEL logo unchanged.
-- [x] Define the bright daylight visual treatment and interaction states for a lifelike tree.
-- [x] Generate and integrate a grounded, realistic tree hero image inspired by the legacy oak/baobab composition while leaving the supplied HAEL logo unchanged.
-- [x] Replace the illustrated tree module with a photographic tree scene plus interactive layer hotspots.
-- [x] Verify that the hero and tree stay readable and usable on desktop and mobile.
-- [ ] Run TypeScript/build checks, save a checkpoint, and deliver the update.
+- [x] Keep the supplied HAEL logo exactly as provided.
+- [x] Keep the approved realistic tree image as the tree visual.
+- [x] Remove the generated drawn mark from the header and favicon references.
+- [x] Remove tree hotspots, hover states, tabs, and interactive tree controls.
+- [x] Verify the simplified layout on desktop and mobile.
+- [ ] Run checks, save a checkpoint, and deliver the update.

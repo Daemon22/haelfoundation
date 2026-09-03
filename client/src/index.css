@@ -329,3 +329,10 @@ img { display: block; max-width: 100%; }
 .tree-illustration .tree-legend .legend-dot--green { background: #8dc18a; }
 @media (max-width: 800px) { .live-tree-scene { max-width: 570px; }.live-tree-scene > img { height: 560px; }.tree-illustration { min-height: 575px; } }
 @media (max-width: 560px) { .live-tree-scene > img { height: 440px; }.tree-illustration { min-height: 458px; }.tree-hotspot--1 { top: 70%; left: 9%; }.tree-hotspot--2 { top: 52%; left: 39%; }.tree-hotspot--3 { top: 30%; right: 4%; }.tree-hotspot--4 { top: 12%; left: 43%; }.hotspot-label { font-size: 8px; }.live-tree-caption { right: 10px; bottom: 11px; left: 10px; gap: 6px; }.live-tree-caption strong { font-size: 13px; }.live-tree-caption span:last-child { display: none; }.tree-illustration .tree-legend { bottom: 4px; left: 11px; } }
+
+/* Simplification pass: only the supplied HAEL emblem is used; the tree image is presented as a calm, non-interactive plate. */
+.wordmark img { object-fit: cover; object-position: 50% 18%; }
+.live-tree-caption span:last-child { display: none; }
+.tree-tab--static { cursor: default; }
+.tree-tab--static:hover { padding-left: 11px; color: #a8baa5; background: transparent; }
+.tree-tab--static.is-active:hover { padding-left: 18px; color: #fbf3de; background: rgba(217, 185, 81, .08); }
