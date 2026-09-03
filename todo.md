@@ -1,8 +1,6 @@
-# HAEL Foundation simplification checklist
+# HAEL Foundation GitHub force-push checklist
 
-- [x] Keep the supplied HAEL logo exactly as provided.
-- [x] Keep the approved realistic tree image as the tree visual.
-- [x] Remove the generated drawn mark from the header and favicon references.
-- [x] Remove tree hotspots, hover states, tabs, and interactive tree controls.
-- [x] Verify the simplified layout on desktop and mobile.
-- [ ] Run checks, save a checkpoint, and deliver the update.
+- [ ] Verify the local Git repository, remote destination, and active branch.
+- [ ] Commit the current HAEL Foundation project state.
+- [ ] Force-push to the selected GitHub repository.
+- [ ] Verify the remote commit and report the result.
