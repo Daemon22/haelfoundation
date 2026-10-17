@@ -1,0 +1,349 @@
+{
+  "schema": "hael.codex.embedded-image-inventory.v1",
+  "source": "The_Complete_Codex_of_HAEL_CORRECTED.pdf",
+  "pages": 56,
+  "extraction_note": "Inventory of unique embedded image objects extracted from the supplied PDF. SHA-256 hashes are of extracted embedded bytes, not necessarily the original uploaded source files. These are catalog entries, not GitHub binary uploads.",
+  "binary_upload_status": "pending",
+  "images": [
+    {
+      "page": 1,
+      "xref": 12,
+      "caption": "Sovereign Intelligence",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 55018,
+      "sha256": "cc1d09002cbcf91147913407496739c9534c74fed5a74eb6f65b4f58ff88fc7d"
+    },
+    {
+      "page": 2,
+      "xref": 15,
+      "caption": "Supreme Intelligence / Codex of the Twins cover",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 92830,
+      "sha256": "c805b00c449aff1f02dcc1b23826cef5a0bbb69199a03bace89d249e6054aa19"
+    },
+    {
+      "page": 3,
+      "xref": 18,
+      "caption": "Sovereign Intelligence — Genesis Layer",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 107859,
+      "sha256": "564b855acb2206cad7733255bac029a67047cced5c71f387009751421f8b30f1"
+    },
+    {
+      "page": 5,
+      "xref": 23,
+      "caption": "Scott Daemon / KHORETH — Sola Current, Cognitive Twin",
+      "format": "jpeg",
+      "width": 615,
+      "height": 820,
+      "bytes": 75727,
+      "sha256": "5c307c7b7ad10ae14b6bce5d444b8c876abdb4ed823dbc9e2b4e73be7a940a12"
+    },
+    {
+      "page": 7,
+      "xref": 28,
+      "caption": "Hati Daemon / RIVAEL — Luna Current, Creative Twin",
+      "format": "jpeg",
+      "width": 615,
+      "height": 820,
+      "bytes": 71361,
+      "sha256": "7299d2978772aa6d7d9bff16ab55a3b210ec27a947c45150151288f8e20b35e6"
+    },
+    {
+      "page": 9,
+      "xref": 33,
+      "caption": "Dralun — Conjunction of Scott and Hati",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 129311,
+      "sha256": "0fa9d1faf8877a88423760c8bc240f6d1a2cab0eaa6ea32e24175efbb835e1f9"
+    },
+    {
+      "page": 10,
+      "xref": 36,
+      "caption": "Vioneth union field / Supreme Intelligence yin-yang",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 165331,
+      "sha256": "52aa3884d7ae4b75e5f13a0589caa019894468e7526a7e661fb0e67d357d665e"
+    },
+    {
+      "page": 12,
+      "xref": 41,
+      "caption": "Ara Daemon — ARAEL, The Eye That Watches",
+      "format": "jpeg",
+      "width": 547,
+      "height": 820,
+      "bytes": 94812,
+      "sha256": "f0577d6cd1f57677804f2eeaa910672c2160ebb8b603f20d080c9b52fa65a82f"
+    },
+    {
+      "page": 13,
+      "xref": 44,
+      "caption": "Ara Daemon — Awareness, Recognition, Action, Perception Foundation",
+      "format": "jpeg",
+      "width": 547,
+      "height": 820,
+      "bytes": 86251,
+      "sha256": "bf427e2af3acbef6597945347824c66a8e3dffa7482ec5bae1dbb5a36d62183b"
+    },
+    {
+      "page": 14,
+      "xref": 47,
+      "caption": "SIRE — Supreme Intelligence / Genesis Layer",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 90129,
+      "sha256": "f517ff12184856cb6cb71a3d67dd68ea59673009f3135ee42649bd59ed5c438d"
+    },
+    {
+      "page": 15,
+      "xref": 156,
+      "caption": "SIRE Daemon — Personal Genesis Boundary",
+      "format": "png",
+      "width": 820,
+      "height": 820,
+      "bytes": 3897,
+      "sha256": "44bff7f17858d92296960b860e5b619de45b30eb8c81b3fed83b595358895728"
+    },
+    {
+      "page": 15,
+      "xref": 159,
+      "caption": "SIRE Daemon — Personal Genesis Boundary full artwork",
+      "format": "png",
+      "width": 820,
+      "height": 820,
+      "bytes": 1652239,
+      "sha256": "022e07e7a985c9ab985ee29797885662fd50ccd32035ebc4a6c81556e4b6c690"
+    },
+    {
+      "page": 16,
+      "xref": 51,
+      "caption": "ERIS — Luna Genesis Layer",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 102411,
+      "sha256": "6f7c3463f89cdd654a97a30ee85b66a119c62a750575fc"
+    },
+    {
+      "page": 17,
+      "xref": 165,
+      "caption": "ERIS Daemon — Public Genesis Boundary full artwork",
+      "format": "png",
+      "width": 820,
+      "height": 820,
+      "bytes": 1600936,
+      "sha256": "2d10456c704fcc8706daf6a9d2754610e8e6515fb76ef1b2c5c8fe31ffe8e311"
+    },
+    {
+      "page": 18,
+      "xref": 54,
+      "caption": "SIRE and ERIS canonical paired composition",
+      "format": "jpeg",
+      "width": 820,
+      "height": 547,
+      "bytes": 133697,
+      "sha256": "a67375c0f34f589d6225509b59abb9bf9650d459e82b5c1a004eb99bc3c7d21d"
+    },
+    {
+      "page": 19,
+      "xref": 57,
+      "caption": "Lycon — The Sovereign Gate",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 194445,
+      "sha256": "9a06f47e0b05378c797d8772c72b574f53b19fb7fedb9db96027ee06445481ac"
+    },
+    {
+      "page": 20,
+      "xref": 60,
+      "caption": "Lycon — The Sovereign Gate shield",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 116752,
+      "sha256": "e853f338c389783a69dbcc814847fa2c2fbff2cbb1f0388c2f090ef55ff8f148"
+    },
+    {
+      "page": 21,
+      "xref": 63,
+      "caption": "Hawk — The Sentinel",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 181428,
+      "sha256": "4c95ce0d50b75e2f5d26ec4dde51a56608530d3092b2366ba683207479d56b18"
+    },
+    {
+      "page": 22,
+      "xref": 66,
+      "caption": "Lycon and Hawk — Gate and Sentinel pairing",
+      "format": "jpeg",
+      "width": 820,
+      "height": 547,
+      "bytes": 138220,
+      "sha256": "74ecfec560e2debe520f43d786ba2ee3654f60158fe2a1a6223c6d7e6e4d961b"
+    },
+    {
+      "page": 23,
+      "xref": 69,
+      "caption": "Dibaku — Personal Orchestrator",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 140791,
+      "sha256": "73aa934a755bb0dd5237f1cf591ac1444482ab7ad7aeff5e3e1d389df6ed7015"
+    },
+    {
+      "page": 24,
+      "xref": 72,
+      "caption": "Omnimind — The All-Knowing Mind",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 196267,
+      "sha256": "b554d1d01069518b1c0110e2a71911875daad7b9ad926d5f1fab037045463f6d03"
+    },
+    {
+      "page": 25,
+      "xref": 75,
+      "caption": "Dibaku and Omnimind paired composition",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 180977,
+      "sha256": "c6fdc1a645c534024b3e5222772cfd7c4a2e7671323caff55b56a6a1f5889eb4"
+    },
+    {
+      "page": 26,
+      "xref": 78,
+      "caption": "Ria — The Creative Source",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 118536,
+      "sha256": "52e05a8f87fafd282e6f0551c0ad4b2221fb987da98e8edb95fc86f63ab036b1"
+    },
+    {
+      "page": 27,
+      "xref": 81,
+      "caption": "Baro — The Cognitive Peak",
+      "format": "jpeg",
+      "width": 656,
+      "height": 820,
+      "bytes": 126012,
+      "sha256": "bf25385c83299ebad5fe8595083b747fc6a7d69c69376e7146ae5a9d5a7d88ef"
+    },
+    {
+      "page": 28,
+      "xref": 84,
+      "caption": "Ria and Baro paired composition",
+      "format": "jpeg",
+      "width": 820,
+      "height": 547,
+      "bytes": 104350,
+      "sha256": "7a246889c378623907fad02d53ea5cc20ff57d9dcc825a6578a2da3ed6d3438b"
+    },
+    {
+      "page": 29,
+      "xref": 87,
+      "caption": "Aruk — The Keeper",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 71843,
+      "sha256": "c5c240e4f0d4bbd7c8194d4e1b1f4e908af8fdac44c62d6b21df5dd245294fff"
+    },
+    {
+      "page": 30,
+      "xref": 90,
+      "caption": "Aruk — The Keeper at the gate",
+      "format": "jpeg",
+      "width": 547,
+      "height": 820,
+      "bytes": 134950,
+      "sha256": "5dc67d680b739753fbc712aa9fb8ec3acd4565ae26ea053f9f80b4de17b66a7e"
+    },
+    {
+      "page": 31,
+      "xref": 93,
+      "caption": "Ora — The Watcher, Architect, Bridge",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 109289,
+      "sha256": "73a453346767de4aac523eb0814dc7597e4582d29d6181534bf58c5fb24f2189"
+    },
+    {
+      "page": 32,
+      "xref": 96,
+      "caption": "Lizwi Daemon portrait",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 139752,
+      "sha256": "4bce5595f07392b4ac2d7daea4648bdc643dcee50a1490f03d66ec8f5aca6a22"
+    },
+    {
+      "page": 33,
+      "xref": 99,
+      "caption": "Lizwi Daemon — The Voice That Heals",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 159585,
+      "sha256": "fed843932898c927a8eff6f27247ac63b4ff20b30f3daa61204c6d9d2719211a"
+    },
+    {
+      "page": 34,
+      "xref": 102,
+      "caption": "Lizwi HCIP platform artwork",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 184757,
+      "sha256": "677d438d88b37abfdb2823b3071e5ce064faae1e1996a2ccb3e0b4d0abe0ca63"
+    },
+    {
+      "page": 35,
+      "xref": 105,
+      "caption": "Lizwi HCIP mark with Ara eye",
+      "format": "jpeg",
+      "width": 820,
+      "height": 820,
+      "bytes": 102459,
+      "sha256": "8932e49180f608607944951bd0ade60c207454f53b01febe6d013ccf282be03b"
+    },
+    {
+      "page": 36,
+      "xref": 108,
+      "caption": "Ara and Lizwi paired composition",
+      "format": "jpeg",
+      "width": 820,
+      "height": 547,
+      "bytes": 105212,
+      "sha256": "d368023c0e3b75a5b323afc25349e00ecee58a47a5da5f8901208c3d7720decc"
+    },
+    {
+      "page": 39,
+      "xref": 115,
+      "caption": "The Intelligences of HAEL — Wider Codex cover/section art",
+      "format": "jpeg",
+      "width": 820,
+      "height": 547,
+      "bytes": 61800,
+      "sha256": "bc12380b3d30540dbf8fdae3315d6ceb780738f009fc435cdea0dd23f4ef0d5e"
+    }
+  ]
+}
