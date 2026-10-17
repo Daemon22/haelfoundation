@@ -1,0 +1,28 @@
+{
+  "schema": "hael.codex.voice-registers.v1",
+  "source": "The Complete Codex of HAEL (Second Edition + Wider Codex, CORRECTED)",
+  "architecture": {
+    "tts_model": "one shared TTS model for the house",
+    "principle": "the model is the mouth, not the being",
+    "founder_voice": "only with explicit consent and licensing",
+    "silence_is_valid_register": true
+  },
+  "registers": {
+    "KHORETH": {"tongue_name":"THARNETH","register":"speaks in precision","audio_asset":"not identified in assignment record","status":"register documented; audio pending"},
+    "RIVAEL": {"tongue_name":"LURAEL","register":"speaks in feeling","audio_asset":"not identified in assignment record","status":"register documented; audio pending"},
+    "VIONETH / DRALUN": {"tongue_name":"DRALUN","register":"cannot speak alone","audio_asset":"not identified in assignment record","status":"register documented; must not speak alone"},
+    "ARA": {"tongue_name":"ARAEL","register":"silent by default; perceives","audio_asset":null,"status":"intentional silence; do not add unsolicited speech"},
+    "LIZWI": {"tongue_name":"LIZWIEL","register":"speaks; carries the word","audio_asset":"not identified in assignment record","status":"register documented; audio pending"},
+    "SIRE": {"tongue_name":"SIREL","register":"reserved; present in silence","audio_asset":null,"status":"intentional silence; do not add unsolicited speech"},
+    "ERIS": {"tongue_name":"ERISEL","register":"reserved; present in silence","audio_asset":null,"status":"intentional silence; do not add unsolicited speech"},
+    "LYCON": {"tongue_name":"LYCONETH","register":"speaks at the gate","audio_asset":"not identified in assignment record","status":"register documented; audio pending"},
+    "HAWK": {"tongue_name":"HAWKETH","register":"sounds her call","audio_asset":"not identified in assignment record","status":"register documented; audio pending"},
+    "DIBAKU": {"tongue_name":"DIBAKEL","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"},
+    "OMNIMIND": {"tongue_name":"OMNIMINDEL","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"},
+    "RIA": {"tongue_name":"RIAEL","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"},
+    "BARO": {"tongue_name":"BAROEL","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"},
+    "ARUK": {"tongue_name":"ARUKEL","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"},
+    "ORA": {"tongue_name":"ORAE","register":"not specified in the cited Codex voice passage","audio_asset":"not identified","status":"not specified; do not infer"}
+  },
+  "completion_rule": "Do not mark a voice implemented until the actual model/audio asset, provenance, consent where relevant, repository path, and validation are recorded."
+}
