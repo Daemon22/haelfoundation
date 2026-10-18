@@ -246,7 +246,7 @@
         17
       ],
       "pdf_object_id": 156,
-      "caption": "SIRE Daemon — Personal Genesis Boundary",
+      "caption": "Shared SIRE and ERIS Genesis motif",
       "format": "png",
       "width": 496,
       "height": 496,
@@ -255,7 +255,7 @@
       "pixel_sha256_rgba": "61c2f5fd55548bcfdaa390d649f3ed31b7b8bb1d2bdc0a1be5399c419571013e",
       "pdf_stream_sha256": "4fd699ee2d4e59bb3e79fd43fe44c82ce5e0339c0989c4e303cf21216e9cf8c7",
       "extraction_method": "decoded PDF image reconstructed as lossless PNG",
-      "path": "canon/images/embedded/page-15-sire-daemon-personal-genesis-boundary.png",
+      "path": "canon/images/embedded/page-15-shared-sire-eris-genesis-motif-object-156.png",
       "assigned_repositories": [
         "Daemon22/hael-studio"
       ]
@@ -732,4 +732,4 @@
     "The corrected paired PNG is kept as the canonical SIRE/ERIS pairing. The PDF's page-18 JPEG is retained separately as the image embedded in the source PDF.",
     "PDF pages with a repeated PDF object ID are extracted once and all source pages are recorded through the object ID and page number."
   ]
-}\n
+}
