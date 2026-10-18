@@ -30,7 +30,7 @@
       "pixel_sha256_rgba": "ee1ef5fe956cb9575013df8b7b787c1bd3bef9e05524651e3bdbe8e135495140",
       "bytes": 920031,
       "canonical_repository": "Daemon22/hael-studio",
-      "canonical_path": "artifacts/hael-studio/public/intelligences/SIRE/SIRE_ERIS_Paired_Corrected.png"
+      "canonical_path": "artifacts/hael-studio/public/intelligences/shared/SIRE_ERIS_Paired_Corrected.png"
     }
   ],
   "unique_embedded_image_count": 34,
@@ -732,4 +732,4 @@
     "The corrected paired PNG is kept as the canonical SIRE/ERIS pairing. The PDF's page-18 JPEG is retained separately as the image embedded in the source PDF.",
     "PDF pages with a repeated PDF object ID are extracted once and all source pages are recorded through the object ID and page number."
   ]
-}
+}\n
