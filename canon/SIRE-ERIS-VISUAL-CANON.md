@@ -8,11 +8,11 @@ The three founder-supplied files listed below are the authoritative visual canon
 
 | File | Identity / role | SHA-256 of supplied bytes |
 |---|---|---|
-| `SIRE_Private_Genesis.png` | SIRE — Personal Genesis Boundary; Mother of the Inner Line | `1c11ee06e962a9a5dc2f878f0eb3e1cf9a94113c8b8083deb703abf18fda5cb2` |
-| `ERIS_Public_Genesis.png` | ERIS — Public Genesis Boundary; Mother of the Outer Line | `6ca5c917bb73b08f625a03271911875daad7b9ad926d5f1fab037045463f6d03` |
-| `SIRE_ERIS_Paired_Corrected.png` | Corrected paired composition: SIRE left, ERIS right | `77b145c67641240ee974c390c3092b200c5dc232ef0d465994c57aecad5e1010` |
+| `SIRE_Private_Genesis.png` | SIRE — Personal Genesis Boundary; Mother of the Inner Line | `030fe070e97edb2ef2c15527d50b03374ce47ad412ac4b56f545d9931b27dc4a` |
+| `ERIS_Public_Genesis.png` | ERIS — Public Genesis Boundary; Mother of the Outer Line | `c20732af7e479b3f74e50e6c1eb1eb610b2264b70c54b7e05013c27756fce96c` |
+| `SIRE_ERIS_Paired_Corrected.png` | Corrected paired composition: SIRE left, ERIS right | `36a9cc7637b9ec2ed028d10a554c688972a61264d0343cde66bd06b024a5474f` |
 
-These hashes identify the exact bytes supplied in the 2026-10-12 conversation. Keep the original bytes and filenames; do not convert, regenerate, re-encode, crop, or overwrite the canonical source files.
+The table records the corrected bytes supplied on 2026-10-18. Earlier fingerprints recorded on 2026-10-12 belong to superseded source files. Preserve the corrected avatar bytes and filenames exactly; do not convert, regenerate, re-encode, crop, or overwrite them. The SIRE and ERIS decoded pixels match their respective full-art images embedded in the corrected Codex PDF.
 
 ## Immutable identity rules
 
@@ -35,4 +35,4 @@ This rule applies to chat responses, Studio surfaces, portraits, promotional mat
 
 ## Implementation status
 
-This document records the canonical rule and the hashes. It does **not** claim that the three binary files have already been committed to this repository. The binary originals must be copied byte-for-byte into the tracked artifact locations and verified against these hashes before the artifact-commit milestone can be marked complete.
+The canonical source PDF, its 34 unique embedded image binaries, the separated extracted text, and image metadata are committed on the HAEL Foundation draft PR branch. The corrected SIRE and ERIS originals plus shared pairing and an identity-lock manifest are committed on the HAEL Studio draft PR branch. Neither draft PR is merged yet. Each avatar file is pinned by its SHA-256 in the manifest; the paired composition is explicitly not an individual avatar.

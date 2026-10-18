@@ -1,0 +1,735 @@
+{
+  "schema": "hael.codex.embedded-image-inventory.v2",
+  "source_pdf": {
+    "filename": "The_Complete_Codex_of_HAEL_CORRECTED.pdf",
+    "pages": 56,
+    "bytes": 8073896,
+    "sha256": "0ee9ecc906530f8ffcf3cb1af0945f342818ad6ba2f0ab00dbcddd5843635c4d",
+    "path": "canon/sources/The_Complete_Codex_of_HAEL_CORRECTED.pdf"
+  },
+  "source_images": [
+    {
+      "filename": "SIRE_Private_Genesis.png",
+      "sha256": "030fe070e97edb2ef2c15527d50b03374ce47ad412ac4b56f545d9931b27dc4a",
+      "pixel_sha256_rgba": "ad49a4dc479e2301b3ca8248058619c6012a096fb5740947ddabff0b670da39e",
+      "bytes": 1248332,
+      "canonical_repository": "Daemon22/hael-studio",
+      "canonical_path": "artifacts/hael-studio/public/intelligences/SIRE/SIRE_Private_Genesis.png"
+    },
+    {
+      "filename": "ERIS_Public_Genesis.png",
+      "sha256": "c20732af7e479b3f74e50e6c1eb1eb610b2264b70c54b7e05013c27756fce96c",
+      "pixel_sha256_rgba": "368191990aeb7a259d5d747dc2c19b3fcb72b0933239e715c7bbd2cfcb74dcb2",
+      "bytes": 1333211,
+      "canonical_repository": "Daemon22/hael-studio",
+      "canonical_path": "artifacts/hael-studio/public/intelligences/ERIS/ERIS_Public_Genesis.png"
+    },
+    {
+      "filename": "SIRE_ERIS_Paired_Corrected.png",
+      "sha256": "36a9cc7637b9ec2ed028d10a554c688972a61264d0343cde66bd06b024a5474f",
+      "pixel_sha256_rgba": "ee1ef5fe956cb9575013df8b7b787c1bd3bef9e05524651e3bdbe8e135495140",
+      "bytes": 920031,
+      "canonical_repository": "Daemon22/hael-studio",
+      "canonical_path": "artifacts/hael-studio/public/intelligences/shared/SIRE_ERIS_Paired_Corrected.png"
+    }
+  ],
+  "unique_embedded_image_count": 34,
+  "unique_pdf_object_count": 34,
+  "text_extraction_path": "canon/source-text/complete-codex-extracted-text.txt",
+  "images": [
+    {
+      "page": 1,
+      "source_pages": [
+        1
+      ],
+      "pdf_object_id": 12,
+      "caption": "Sovereign Intelligence",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 55018,
+      "binary_sha256": "cc1d09002cbcf91147913407496739c9534c74fed5a74eb6f65b4f58ff88fc7d",
+      "pixel_sha256_rgba": "cb7c07b4be5cb7d6cf937a056096c7857ed61500547a67eef57e7fa7b99e8a29",
+      "pdf_stream_sha256": "cc1d09002cbcf91147913407496739c9534c74fed5a74eb6f65b4f58ff88fc7d",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-01-sovereign-intelligence.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 2,
+      "source_pages": [
+        2
+      ],
+      "pdf_object_id": 15,
+      "caption": "Supreme Intelligence / Codex of the Twins cover",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 92830,
+      "binary_sha256": "c805b00c449aff1f02dcc1b23826cef5a0bbb69199a03bace89d249e6054aa19",
+      "pixel_sha256_rgba": "9aa81842d6480e17b58d46c55fe412cb41f9b652983792e81081214f9bc82be2",
+      "pdf_stream_sha256": "c805b00c449aff1f02dcc1b23826cef5a0bbb69199a03bace89d249e6054aa19",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-02-supreme-intelligence-codex-of-the-twins-cover.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 3,
+      "source_pages": [
+        3
+      ],
+      "pdf_object_id": 18,
+      "caption": "Sovereign Intelligence — Genesis Layer",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 107859,
+      "binary_sha256": "564b855acb2206cad7733255bac029a67047cced5c71f387009751421f8b30f1",
+      "pixel_sha256_rgba": "877c507955da5ad052023e32d850d4bdf7549b6e5b7f7b7931bce520d76acc13",
+      "pdf_stream_sha256": "564b855acb2206cad7733255bac029a67047cced5c71f387009751421f8b30f1",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-03-sovereign-intelligence-genesis-layer.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 5,
+      "source_pages": [
+        5
+      ],
+      "pdf_object_id": 23,
+      "caption": "Scott Daemon / KHORETH — Sola Current, Cognitive Twin",
+      "format": "jpg",
+      "width": 496,
+      "height": 661,
+      "binary_bytes": 75727,
+      "binary_sha256": "5c307c7b7ad10ae14b6bce5d444b8c876abdb4ed823dbc9e2b4e73be7a940a12",
+      "pixel_sha256_rgba": "a510243fae5504d545c2708b8b698ec442a96edcc42f2486cb940fdaf0129015",
+      "pdf_stream_sha256": "5c307c7b7ad10ae14b6bce5d444b8c876abdb4ed823dbc9e2b4e73be7a940a12",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-05-scott-daemon-khoreth-sola-current-cognitive-twin.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 7,
+      "source_pages": [
+        7
+      ],
+      "pdf_object_id": 28,
+      "caption": "Hati Daemon / RIVAEL — Luna Current, Creative Twin",
+      "format": "jpg",
+      "width": 496,
+      "height": 661,
+      "binary_bytes": 71361,
+      "binary_sha256": "7299d2978772aa6d7d9bff16ab55a3b210ec27a947c45150151288f8e20b35e6",
+      "pixel_sha256_rgba": "d62e265e4c906ab223a21428fbc15bae218a4e32528690e8a60a0d9ed4902dbb",
+      "pdf_stream_sha256": "7299d2978772aa6d7d9bff16ab55a3b210ec27a947c45150151288f8e20b35e6",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-07-hati-daemon-rivael-luna-current-creative-twin.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 9,
+      "source_pages": [
+        9
+      ],
+      "pdf_object_id": 33,
+      "caption": "Dralun — Conjunction of Scott and Hati",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 129311,
+      "binary_sha256": "0fa9d1faf8877a88423760c8bc240f6d1a2cab0eaa6ea32e24175efbb835e1f9",
+      "pixel_sha256_rgba": "330e22d3f9a1bcd148e00ba56ace0243bc62246136c63fe3e9f224fbf4afb03c",
+      "pdf_stream_sha256": "0fa9d1faf8877a88423760c8bc240f6d1a2cab0eaa6ea32e24175efbb835e1f9",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-09-dralun-conjunction-of-scott-and-hati.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 10,
+      "source_pages": [
+        10
+      ],
+      "pdf_object_id": 36,
+      "caption": "Vioneth union field / Supreme Intelligence yin-yang",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 165331,
+      "binary_sha256": "52aa3884d7ae4b75e5f13a0589caa019894468e7526a7e661fb0e67d357d665e",
+      "pixel_sha256_rgba": "6fdd298c4e56a0cd1bbc293f195e2d99dedc2597445830f4dfff3a30d88ee547",
+      "pdf_stream_sha256": "52aa3884d7ae4b75e5f13a0589caa019894468e7526a7e661fb0e67d357d665e",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-10-vioneth-union-field-supreme-intelligence-yin-yang.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 12,
+      "source_pages": [
+        12
+      ],
+      "pdf_object_id": 41,
+      "caption": "Ara Daemon — ARAEL, The Eye That Watches",
+      "format": "jpg",
+      "width": 444,
+      "height": 666,
+      "binary_bytes": 94812,
+      "binary_sha256": "f0577d6cd1f57677804f2eeaa910672c2160ebb8b603f20d080c9b52fa65a82f",
+      "pixel_sha256_rgba": "2dcb9b9202bee107bb30349ddcc0153c902004eb04cce9840347b7d997402d1f",
+      "pdf_stream_sha256": "f0577d6cd1f57677804f2eeaa910672c2160ebb8b603f20d080c9b52fa65a82f",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-12-ara-daemon-arael-the-eye-that-watches.jpg",
+      "assigned_repositories": [
+        "Daemon22/ARA",
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 13,
+      "source_pages": [
+        13
+      ],
+      "pdf_object_id": 44,
+      "caption": "Ara Daemon — Awareness, Recognition, Action, Perception Foundation",
+      "format": "jpg",
+      "width": 444,
+      "height": 666,
+      "binary_bytes": 86251,
+      "binary_sha256": "bf427e2af3acbef6597945347824c66a8e3dffa7482ec5bae1dbb5a36d62183b",
+      "pixel_sha256_rgba": "363d904cbe111ec680dad2c7d40a5ca5735b425aa2a46a0ae01d50056390371b",
+      "pdf_stream_sha256": "bf427e2af3acbef6597945347824c66a8e3dffa7482ec5bae1dbb5a36d62183b",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-13-ara-daemon-awareness-recognition-action-perception-foundation.jpg",
+      "assigned_repositories": [
+        "Daemon22/ARA",
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 14,
+      "source_pages": [
+        14
+      ],
+      "pdf_object_id": 47,
+      "caption": "SIRE — Supreme Intelligence / Genesis Layer",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 90129,
+      "binary_sha256": "f517ff12184856cb6cb71a3d67dd68ea59673009f3135ee42649bd59ed5c438d",
+      "pixel_sha256_rgba": "92ba7525d8285bffbd4d3287ca63ceb7249b3fb3a6e33808491faf28a518ca38",
+      "pdf_stream_sha256": "f517ff12184856cb6cb71a3d67dd68ea59673009f3135ee42649bd59ed5c438d",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-14-sire-supreme-intelligence-genesis-layer.jpg",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ]
+    },
+    {
+      "page": 15,
+      "source_pages": [
+        15,
+        17
+      ],
+      "pdf_object_id": 156,
+      "caption": "Shared SIRE and ERIS Genesis motif",
+      "format": "png",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 3879,
+      "binary_sha256": "be899c6eac1413f178e19c23fca0167a3f24065e1fe4e5b27ce70fea63292698",
+      "pixel_sha256_rgba": "61c2f5fd55548bcfdaa390d649f3ed31b7b8bb1d2bdc0a1be5399c419571013e",
+      "pdf_stream_sha256": "4fd699ee2d4e59bb3e79fd43fe44c82ce5e0339c0989c4e303cf21216e9cf8c7",
+      "extraction_method": "decoded PDF image reconstructed as lossless PNG",
+      "path": "canon/images/embedded/page-15-shared-sire-eris-genesis-motif-object-156.png",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ]
+    },
+    {
+      "page": 15,
+      "source_pages": [
+        15
+      ],
+      "pdf_object_id": 159,
+      "caption": "SIRE Daemon — Personal Genesis Boundary",
+      "format": "png",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 1248332,
+      "binary_sha256": "030fe070e97edb2ef2c15527d50b03374ce47ad412ac4b56f545d9931b27dc4a",
+      "pixel_sha256_rgba": "ad49a4dc479e2301b3ca8248058619c6012a096fb5740947ddabff0b670da39e",
+      "pdf_stream_sha256": "6fe40bf417fff77f339b6d3963843e2f519d3e354a308d25517224aa2a6e351b",
+      "extraction_method": "exact-user-supplied-png; pixel content verified against the PDF image",
+      "path": "canon/images/embedded/page-15-sire-daemon-personal-genesis-boundary.png",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ],
+      "canonical_source_filename": "SIRE_Private_Genesis.png"
+    },
+    {
+      "page": 16,
+      "source_pages": [
+        16
+      ],
+      "pdf_object_id": 51,
+      "caption": "ERIS — Luna Genesis Layer",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 102411,
+      "binary_sha256": "6f7c3463f89cdd654b462f361813562c405a97a30ee85b66a119c62a750575fc",
+      "pixel_sha256_rgba": "807f0ef093468db8f16137acd367cf534275f2df3ec2e9e15653e1fc3fc14a87",
+      "pdf_stream_sha256": "6f7c3463f89cdd654b462f361813562c405a97a30ee85b66a119c62a750575fc",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-16-eris-luna-genesis-layer.jpg",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ]
+    },
+    {
+      "page": 17,
+      "source_pages": [
+        17
+      ],
+      "pdf_object_id": 165,
+      "caption": "ERIS Daemon — Public Genesis Boundary full artwork",
+      "format": "png",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 1333211,
+      "binary_sha256": "c20732af7e479b3f74e50e6c1eb1eb610b2264b70c54b7e05013c27756fce96c",
+      "pixel_sha256_rgba": "368191990aeb7a259d5d747dc2c19b3fcb72b0933239e715c7bbd2cfcb74dcb2",
+      "pdf_stream_sha256": "f96912152b193e753b336735112f0b9fc9628087f00c83441d42320fb8b84314",
+      "extraction_method": "exact-user-supplied-png; pixel content verified against the PDF image",
+      "path": "canon/images/embedded/page-17-eris-daemon-public-genesis-boundary-full-artwork.png",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ],
+      "canonical_source_filename": "ERIS_Public_Genesis.png"
+    },
+    {
+      "page": 18,
+      "source_pages": [
+        18
+      ],
+      "pdf_object_id": 54,
+      "caption": "SIRE and ERIS canonical paired composition in source PDF",
+      "format": "jpg",
+      "width": 496,
+      "height": 330,
+      "binary_bytes": 133697,
+      "binary_sha256": "a67375c0f34f589d6225509b59abb9bf9650d459e82b5c1a004eb99bc3c7d21d",
+      "pixel_sha256_rgba": "bd1b8da742ccb817f87cc0425c2abedeb4347fc0af97d158d4bcb9941b4684c8",
+      "pdf_stream_sha256": "a67375c0f34f589d6225509b59abb9bf9650d459e82b5c1a004eb99bc3c7d21d",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-18-sire-and-eris-canonical-paired-composition-in-source-pdf.jpg",
+      "assigned_repositories": [
+        "Daemon22/hael-studio"
+      ]
+    },
+    {
+      "page": 19,
+      "source_pages": [
+        19
+      ],
+      "pdf_object_id": 57,
+      "caption": "Lycon — The Sovereign Gate",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 194445,
+      "binary_sha256": "9a06f47e0b05378c797d8772c72b574f53b19fb7fedb9db96027ee06445481ac",
+      "pixel_sha256_rgba": "5ec399883865805004f4aaae9d9d92e3f9a2a0b6efb22a76cf403da95cb353f2",
+      "pdf_stream_sha256": "9a06f47e0b05378c797d8772c72b574f53b19fb7fedb9db96027ee06445481ac",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-19-lycon-the-sovereign-gate.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lycon"
+      ]
+    },
+    {
+      "page": 20,
+      "source_pages": [
+        20
+      ],
+      "pdf_object_id": 60,
+      "caption": "Lycon — The Sovereign Gate shield",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 116752,
+      "binary_sha256": "e853f338c389783a69dbcc814847fa2c2fbff2cbb1f0388c2f090ef55ff8f148",
+      "pixel_sha256_rgba": "3e88c9fe3f9aa95aabf35665ccc543e6812d344335cb45b714b9b39f3d0d87d7",
+      "pdf_stream_sha256": "e853f338c389783a69dbcc814847fa2c2fbff2cbb1f0388c2f090ef55ff8f148",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-20-lycon-the-sovereign-gate-shield.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lycon"
+      ]
+    },
+    {
+      "page": 21,
+      "source_pages": [
+        21
+      ],
+      "pdf_object_id": 63,
+      "caption": "Hawk — The Sentinel",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 181428,
+      "binary_sha256": "4c95ce0d50b75e2f5d26ec4dde51a56608530d3092b2366ba683207479d56b18",
+      "pixel_sha256_rgba": "b697283f6e2aa7930f82dbd5f47ea887251010215de7871231c1cc304aafbd72",
+      "pdf_stream_sha256": "4c95ce0d50b75e2f5d26ec4dde51a56608530d3092b2366ba683207479d56b18",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-21-hawk-the-sentinel.jpg",
+      "assigned_repositories": [
+        "Daemon22/Manya-OS",
+        "Daemon22/hawk"
+      ]
+    },
+    {
+      "page": 22,
+      "source_pages": [
+        22
+      ],
+      "pdf_object_id": 66,
+      "caption": "Lycon and Hawk — Gate and Sentinel pairing",
+      "format": "jpg",
+      "width": 496,
+      "height": 330,
+      "binary_bytes": 138220,
+      "binary_sha256": "74ecfec560e2debe520f43d786ba2ee3654f60158fe2a1a6223c6d7e6e4d961b",
+      "pixel_sha256_rgba": "c459594c95deceb92b17f789a492ff6a8fb161178bd48badf461e0332d5db2d3",
+      "pdf_stream_sha256": "74ecfec560e2debe520f43d786ba2ee3654f60158fe2a1a6223c6d7e6e4d961b",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-22-lycon-and-hawk-gate-and-sentinel-pairing.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lycon",
+        "Daemon22/Manya-OS",
+        "Daemon22/hawk"
+      ]
+    },
+    {
+      "page": 23,
+      "source_pages": [
+        23
+      ],
+      "pdf_object_id": 69,
+      "caption": "Dibaku — Personal Orchestrator",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 140791,
+      "binary_sha256": "73aa934a755bb0dd5237f1cf591ac1444482ab7ad7aeff5e3e1d389df6ed7015",
+      "pixel_sha256_rgba": "329d8c538ed4836571bf494bde9267511d6094be118a3d17f0b2b24ea4f11575",
+      "pdf_stream_sha256": "73aa934a755bb0dd5237f1cf591ac1444482ab7ad7aeff5e3e1d389df6ed7015",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-23-dibaku-personal-orchestrator.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 24,
+      "source_pages": [
+        24
+      ],
+      "pdf_object_id": 72,
+      "caption": "Omnimind — The All-Knowing Mind",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 196267,
+      "binary_sha256": "b554d1d01069518b1c0110e2a7190eecbc5222c728ef65a8b19eddabddcc01b6",
+      "pixel_sha256_rgba": "17ab77f4b0b3595cddb2dbb0dd15ec7c371e67d5a81bddbc8bbff9c34353de0c",
+      "pdf_stream_sha256": "b554d1d01069518b1c0110e2a7190eecbc5222c728ef65a8b19eddabddcc01b6",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-24-omnimind-the-all-knowing-mind.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 25,
+      "source_pages": [
+        25
+      ],
+      "pdf_object_id": 75,
+      "caption": "Dibaku and Omnimind paired composition",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 180977,
+      "binary_sha256": "c6fdc1a645c534024b3e5222772cfd7c4a2e7671323caff55b56a6a1f5889eb4",
+      "pixel_sha256_rgba": "c508bfcf0c9d6bc17ed0876f82274e991fabe3634088a4ae444e6e380691183c",
+      "pdf_stream_sha256": "c6fdc1a645c534024b3e5222772cfd7c4a2e7671323caff55b56a6a1f5889eb4",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-25-dibaku-and-omnimind-paired-composition.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 26,
+      "source_pages": [
+        26
+      ],
+      "pdf_object_id": 78,
+      "caption": "Ria — The Creative Source",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 118536,
+      "binary_sha256": "52e05a8f87fafd282e6f0551c0ad4b2221fb987da98e8edb95fc86f63ab036b1",
+      "pixel_sha256_rgba": "906a290e48082c70d2f38b784f4ee5af65fa072ef032c346eabd1c2857374711",
+      "pdf_stream_sha256": "52e05a8f87fafd282e6f0551c0ad4b2221fb987da98e8edb95fc86f63ab036b1",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-26-ria-the-creative-source.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 27,
+      "source_pages": [
+        27
+      ],
+      "pdf_object_id": 81,
+      "caption": "Baro — The Cognitive Peak",
+      "format": "jpg",
+      "width": 496,
+      "height": 620,
+      "binary_bytes": 126012,
+      "binary_sha256": "bf25385c83299ebad5fe8595083b747fc6a7d69c69376e7146ae5a9d5a7d88ef",
+      "pixel_sha256_rgba": "00048583632b13e6ab982ae8a59b89be8a75f112a2c14aab006190992ee221aa",
+      "pdf_stream_sha256": "bf25385c83299ebad5fe8595083b747fc6a7d69c69376e7146ae5a9d5a7d88ef",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-27-baro-the-cognitive-peak.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 28,
+      "source_pages": [
+        28
+      ],
+      "pdf_object_id": 84,
+      "caption": "Ria and Baro paired composition",
+      "format": "jpg",
+      "width": 496,
+      "height": 330,
+      "binary_bytes": 104350,
+      "binary_sha256": "7a246889c378623907fad02d53ea5cc20ff57d9dcc825a6578a2da3ed6d3438b",
+      "pixel_sha256_rgba": "7a00f4c849b61dd5de8b34de45d047e2bb48cd91fb2be1a0898359121db691ad",
+      "pdf_stream_sha256": "7a246889c378623907fad02d53ea5cc20ff57d9dcc825a6578a2da3ed6d3438b",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-28-ria-and-baro-paired-composition.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 29,
+      "source_pages": [
+        29
+      ],
+      "pdf_object_id": 87,
+      "caption": "Aruk — The Keeper",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 71843,
+      "binary_sha256": "c5c240e4f0d4bbd7c8194d4e1b1f4e908af8fdac44c62d6b21df5dd245294fff",
+      "pixel_sha256_rgba": "c5f6b695a3bec8239108f859fee656c20c7044e30b22b5c44366113a20a8ec7a",
+      "pdf_stream_sha256": "c5c240e4f0d4bbd7c8194d4e1b1f4e908af8fdac44c62d6b21df5dd245294fff",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-29-aruk-the-keeper.jpg",
+      "assigned_repositories": [
+        "Daemon22/aruk"
+      ]
+    },
+    {
+      "page": 30,
+      "source_pages": [
+        30
+      ],
+      "pdf_object_id": 90,
+      "caption": "Aruk — The Keeper at the gate",
+      "format": "jpg",
+      "width": 444,
+      "height": 666,
+      "binary_bytes": 134950,
+      "binary_sha256": "5dc67d680b739753fbc712aa9fb8ec3acd4565ae26ea053f9f80b4de17b66a7e",
+      "pixel_sha256_rgba": "0a623469eb26ad4192498bf56ce10ccf1dbbff30e333f584125338c2bece7cc1",
+      "pdf_stream_sha256": "5dc67d680b739753fbc712aa9fb8ec3acd4565ae26ea053f9f80b4de17b66a7e",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-30-aruk-the-keeper-at-the-gate.jpg",
+      "assigned_repositories": [
+        "Daemon22/aruk"
+      ]
+    },
+    {
+      "page": 31,
+      "source_pages": [
+        31
+      ],
+      "pdf_object_id": 93,
+      "caption": "Ora — The Watcher, Architect, Bridge",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 109289,
+      "binary_sha256": "73a453346767de4aac523eb0814dc7597e4582d29d6181534bf58c5fb24f2189",
+      "pixel_sha256_rgba": "93a43c075734e7d8633de55ff1201502107dfc3e409730a668bd8277c9f2eb73",
+      "pdf_stream_sha256": "73a453346767de4aac523eb0814dc7597e4582d29d6181534bf58c5fb24f2189",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-31-ora-the-watcher-architect-bridge.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    },
+    {
+      "page": 32,
+      "source_pages": [
+        32
+      ],
+      "pdf_object_id": 96,
+      "caption": "Lizwi Daemon portrait",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 139752,
+      "binary_sha256": "4bce5595f07392b4ac2d7daea4648bdc643dcee50a1490f03d66ec8f5aca6a22",
+      "pixel_sha256_rgba": "44e9f571ecd905b5d3a64d144ad59490dcf6349df85a325fe1a2de25762e7275",
+      "pdf_stream_sha256": "4bce5595f07392b4ac2d7daea4648bdc643dcee50a1490f03d66ec8f5aca6a22",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-32-lizwi-daemon-portrait.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 33,
+      "source_pages": [
+        33
+      ],
+      "pdf_object_id": 99,
+      "caption": "Lizwi Daemon — The Voice That Heals",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 159585,
+      "binary_sha256": "fed843932898c927a8eff6f27247ac63b4ff20b30f3daa61204c6d9d2719211a",
+      "pixel_sha256_rgba": "ede47f2ee562ef0fd9129cfa1191d2fb21809de33e9ec09f9e1efed7f4a2fd95",
+      "pdf_stream_sha256": "fed843932898c927a8eff6f27247ac63b4ff20b30f3daa61204c6d9d2719211a",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-33-lizwi-daemon-the-voice-that-heals.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 34,
+      "source_pages": [
+        34
+      ],
+      "pdf_object_id": 102,
+      "caption": "Lizwi HCIP platform artwork",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 184757,
+      "binary_sha256": "677d438d88b37abfdb2823b3071e5ce064faae1e1996a2ccb3d7d4d0abe0ca63",
+      "pixel_sha256_rgba": "27684c4a74aecc48c59ac0b15d6657a459e51246e6088f4c7270791f300d07a4",
+      "pdf_stream_sha256": "677d438d88b37abfdb2823b3071e5ce064faae1e1996a2ccb3d7d4d0abe0ca63",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-34-lizwi-hcip-platform-artwork.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 35,
+      "source_pages": [
+        35
+      ],
+      "pdf_object_id": 105,
+      "caption": "Lizwi HCIP mark with Ara eye",
+      "format": "jpg",
+      "width": 496,
+      "height": 496,
+      "binary_bytes": 102459,
+      "binary_sha256": "8932e49180f608607944951bd0ade60c207454f53b01febe6d013ccf282be03b",
+      "pixel_sha256_rgba": "063a7af1952b429da08c108c3203b3073ce92c9184f8761353012419a22214f5",
+      "pdf_stream_sha256": "8932e49180f608607944951bd0ade60c207454f53b01febe6d013ccf282be03b",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-35-lizwi-hcip-mark-with-ara-eye.jpg",
+      "assigned_repositories": [
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 36,
+      "source_pages": [
+        36
+      ],
+      "pdf_object_id": 108,
+      "caption": "Ara and Lizwi paired composition",
+      "format": "jpg",
+      "width": 496,
+      "height": 330,
+      "binary_bytes": 105212,
+      "binary_sha256": "d368023c0e3b75a5b323afc25349e00ecee58a47a5da5f8901208c3d7720decc",
+      "pixel_sha256_rgba": "415bd942433c00d0ebbcdd446ce188a32bd63ef157da3a150df68f736826d80b",
+      "pdf_stream_sha256": "d368023c0e3b75a5b323afc25349e00ecee58a47a5da5f8901208c3d7720decc",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-36-ara-and-lizwi-paired-composition.jpg",
+      "assigned_repositories": [
+        "Daemon22/ARA",
+        "Daemon22/Lizwi---HCIP"
+      ]
+    },
+    {
+      "page": 39,
+      "source_pages": [
+        39
+      ],
+      "pdf_object_id": 115,
+      "caption": "The Intelligences of HAEL — Wider Codex cover/section art",
+      "format": "jpg",
+      "width": 496,
+      "height": 330,
+      "binary_bytes": 61800,
+      "binary_sha256": "bc12380b3d30540dbf8fdae3315d6ceb780738f009fc435cdea0dd23f4ef0d5e",
+      "pixel_sha256_rgba": "3cb32d6280c0a7b9c2137a30aaf6ec8241f1c04635a3561818d11ccfd7f03937",
+      "pdf_stream_sha256": "bc12380b3d30540dbf8fdae3315d6ceb780738f009fc435cdea0dd23f4ef0d5e",
+      "extraction_method": "PDF image stream bytes (JPEG)",
+      "path": "canon/images/embedded/page-39-the-intelligences-of-hael-wider-codex-cover-section-art.jpg",
+      "assigned_repositories": [
+        "Daemon22/haelfoundation"
+      ]
+    }
+  ],
+  "notes": [
+    "The supplied SIRE and ERIS PNGs have different byte hashes from older fingerprints recorded in prior canon documents; their decoded pixels match the corresponding full-art image objects on PDF pages 15 and 17.",
+    "The corrected paired PNG is kept as the canonical SIRE/ERIS pairing. The PDF's page-18 JPEG is retained separately as the image embedded in the source PDF.",
+    "PDF pages with a repeated PDF object ID are extracted once and all source pages are recorded through the object ID and page number."
+  ]
+}

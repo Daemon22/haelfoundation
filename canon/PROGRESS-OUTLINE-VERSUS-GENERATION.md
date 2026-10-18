@@ -1,18 +1,18 @@
 # HAEL Codex Assets — Present Progress and Remaining Work
 
-**Status date:** 2026-10-17  
+**Status date:** 2026-10-18  
 **Scope:** HAEL Studio, Orren, the universal mediating language, Supreme Intelligence / Cortex, the Complete Codex, canonical intelligence artifacts, and voice assignments.
 
 ## Executive status
 
-**Planning/assignment documentation is committed. Asset deployment and generation/integration are not complete.** This document intentionally distinguishes a written assignment from an uploaded binary and from a running, verified implementation.
+**Planning and assignment documentation is committed. Corrected source binaries and extracted assets are now committed on draft PR branches, pending merge. Runtime integration and generation are not complete.** This document distinguishes a written assignment, a committed binary, and a running, verified implementation.
 
 ## A. Committed outline / records
 
 The following master records are committed in this repository:
 
 - `canon/COMPLETE-CODEX-ASSET-AND-VOICE-MATRIX.md` — central assignments for Codex identities and their repositories.
-- `canon/embedded-image-inventory.json` — inventory of 34 image entries identified in the supplied Complete Codex PDF, including recorded metadata and fingerprints.
+- `canon/embedded-image-inventory.json` — original catalog of 34 embedded image entries.\n- `canon/embedded-image-inventory-v2.json` — corrected source PDF fingerprint, 34 unique extracted image binaries, source pages, dimensions, SHA-256 and pixel fingerprints, extraction details, and project assignments.\n- `canon/sources/The_Complete_Codex_of_HAEL_CORRECTED.pdf` and `canon/source-text/complete-codex-extracted-text.txt` — corrected source and separated page text.\n- The three user-supplied PNG originals and the 34 extracted image files are committed on the current HAEL Foundation draft PR branch.
 - `canon/voice-registers.json` — recorded voice/register and intentional-silence rules.
 - This file — progress status and remaining work.
 
@@ -100,11 +100,11 @@ A voice is complete only when its actual audio/model asset and provenance are re
 | Workstream | Status |
 |---|---|
 | Master assignment outline | Committed |
-| Embedded-image inventory | Committed as a catalog; binary uploads not implied |
+| Embedded-image inventory | Corrected PDF, separated text, 34 image binaries, and metadata committed on central draft PR branch; pending merge |
 | Voice/register outline | Committed as documentation; actual voice assets not verified |
 | Repository assignment documents | Recorded for the listed repositories; not proof of runtime integration |
-| Canonical SIRE/ERIS binaries in all assigned repositories | Not yet verified as uploaded |
-| All remaining Complete Codex image binaries | Not yet verified as uploaded |
+| Canonical SIRE/ERIS originals and lock file | Committed on HAEL Studio draft PR branch; pending merge and deployment verification |
+| Extracted Codex image binaries | Committed on central draft PR branch; not yet copied to every assigned project repository |
 | Voice generation/audio implementation | Not yet verified |
 | Studio/runtime integration and regression tests | Not yet verified |
 | End-to-end deployment across every repository | Incomplete |

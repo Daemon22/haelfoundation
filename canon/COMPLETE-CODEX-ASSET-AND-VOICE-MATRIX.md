@@ -82,3 +82,14 @@ These source fingerprints have been checked locally. The current GitHub connecto
 
 ## Definition of done
 A repository assignment is complete only when (a) the exact canonical file is tracked at the assigned path, (b) the remote bytes match the source hash where a source hash exists, (c) the application references that exact path, and (d) tests or manual rendering confirm no substitute is used. A manifest-only assignment is not binary upload.
+
+
+## Permanent avatar and evolving logo policy
+
+The identity assignments above are permanent canon. Every named being keeps the same canonical face and avatar source for the life of that identity. A wardrobe, pose, activity, lighting, or setting may vary only in a reviewed derivative that preserves the face, proportions, complexion, eyes, defining features, hair/braids, and identity-bearing symbols. The original source bytes remain immutable and are never overwritten. A missing source must produce a visible missing-asset state; it must never trigger a substitute or another being's image.
+
+Avatars, paired compositions, and logos are distinct artifact classes. A paired composition is not either participant's solo avatar. A conjunction/field such as VIONETH / DRALUN is not assigned an independent being or avatar; use its assigned union-field artwork. House marks and product logos may evolve through separately named, versioned revisions with provenance and approval. A logo revision never changes an identity's avatar assignment.
+
+Each avatar reference must resolve from a stable identity key to one canonical asset record containing the source filename, source SHA-256, access classification, canonical repository/path, and verification state. Consumer applications read that assignment; they do not accept a user-controlled avatar override. Changing a face or canonical avatar requires an explicit founder-declared canon revision, a new reviewed source, and a recorded migration. It is not a routine profile edit.
+
+These rules clarify permanence and presentation versioning. They do not change any row in the assignment matrix or claim that the inventoried image bytes have been uploaded to their assigned repositories.
